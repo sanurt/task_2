@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detail</title>
+    <link rel="stylesheet" href="Informasi.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <h2>Detail Pendaftar</h2>
+        <table>
+            <tr>
+                <th>Username</th>
+                <th>Password</th>
+                <th>Nomor</th>
+                <th>Email</th>
+                <th>Alamat</th>  
+            </tr>
+            <tr>
+                <td>M Ihsan NT</td>
+                <td>ihsan123</td>
+                <td>081234567890</td>
+                <td>Ihsan@gmail.com</td>
+                <td>Kos belwis</td>
+            </tr>
+
+            <tr>
+                <td>Kipli</td>
+                <td>kipli098</td>
+                <td>080987654321</td>
+                <td>kipli@gmail.com</td>
+                <td>jl sudirman, Gg apus</td>
+            </tr>
+
+            <tr>
+                <td>Reza</td>
+                <td>1reza157</td>
+                <td>0875345682467</td>
+                <td>reza@gmail.com</td>
+                <td>desa jatimulyo, kec jati agung</td>
+            </tr>
+
+        </table>
+    </div>
+
+    <script>
+        const urlParams = new URLSearchParams(window.location.search);
+        document.getElementById('nama').textContent = urlParams.get('nama');
+        document.getElementById('email').textContent = urlParams.get('email');
+        document.getElementById('usia').textContent = urlParams.get('usia');
+    </script>
+</body>
+</html>

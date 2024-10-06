@@ -1,0 +1,44 @@
+* {
+    font-family: "Nunito", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(Assets/bg.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 50px;
+    color: white;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 2px solid #ddd;
+    border-color: black;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    background: transparent;
+}
+
+th{
+    background-color: #825cb8;
+}
+
+td{
+    background-color: aliceblue;
+}

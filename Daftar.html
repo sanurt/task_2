@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Daftar</title>
+    <link rel="stylesheet" href="Daftar.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="container">
+        <h2>Form Pendaftaran</h2>
+        <form action="Informasi.html?username=M+Ihsan&password=ihsan123&nomor=081234567890&email=ihsan@gmail.com&alamat=kos+belwis" method="post">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required placeholder="Ihsan"><br>
+
+            <label for="pass">Password:</label>
+            <input type="password" id="pass" name="pass" required placeholder="Ihsan@gmail.com">
+
+            <label for="nomor">Nomor:</label>
+            <input type="number" id="nomor" name="nomor" required placeholder="08xxxxxxxxxx" maxlength="13"
+            min="12">
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required placeholder="Ihsan@gmail.com">
+
+            <label for="alamat">Alamat:</label>
+            <input type="textarea" id="alamat" name="alamat" rows="4" cols="57" required>
+            </textarea>
+
+            <input type="submit" value="Daftar">
+        </form>
+    </div>
+</body>
+</html>
